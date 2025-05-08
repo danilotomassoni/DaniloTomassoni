@@ -1,0 +1,11 @@
+/*
+    IMPORTAÇÕES DAS ESTILIZAÇÕES
+*/
+@import url("globals.css");
+@import url("header.css");
+@import url("main.css");
+@import url("footer.css");
+@import url("sobremin.css");
+@import url("formacao.css");
+@import url("portifolio.css");
+@import url("contato.css");

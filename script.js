@@ -11,7 +11,7 @@ async function carregarComponente(id, arquivo){
 }
 
 //COMPONENTE HEADER
-carregarComponente('header','/components/header.html').then(()=>{
+carregarComponente('header','header.html').then(()=>{
     /**
      * OBITENDO ELEMENTO POR ID.
      */
@@ -55,17 +55,17 @@ carregarComponente('header','/components/header.html').then(()=>{
 
 });
 
-carregarComponente('main','/components/main.html');
-carregarComponente('footer','/components/footer.html');
+carregarComponente('main','main.html');
+carregarComponente('footer','footer.html');
 
 /**
  *  SEÇÕES
  */
 //SOBREMIN
-carregarComponente('sobremin','/components/sobremin.html');
-carregarComponente('formacao','/components/formacao.html');
-carregarComponente('portifolio','/components/portifolio.html');
-carregarComponente('contato','/components/contato.html').then(()=>{
+carregarComponente('sobremin','sobremin.html');
+carregarComponente('formacao','formacao.html');
+carregarComponente('portifolio','portifolio.html');
+carregarComponente('contato','contato.html').then(()=>{
     const enviar = document.getElementById("enviar");
     enviar.addEventListener("click",()=>{
         alert('MENSAGEM ENVIADA, OBRIGADO PELO CONTATO! ;)')
