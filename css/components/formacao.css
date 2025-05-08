@@ -1,0 +1,28 @@
+.container-formacao{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.container-formacao hr{
+    width: 50%;
+}
+.container-formacao h1{
+    text-align: center;
+    margin: 24px;
+}
+.card-formacao{
+    background-color: gray;
+    align-items: center;
+    max-width: 400px;
+    padding: 16px;
+    height: auto;
+    margin:24px;
+    overflow: hidden;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 4px 4px 5px 5px black,-4px -4px 5px 5px #eee;
+}
+.card-formacao hr{
+    width: 100%;
+}

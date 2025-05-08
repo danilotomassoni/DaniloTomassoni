@@ -1,0 +1,30 @@
+.container-contato{
+    display: block;
+    justify-items: center;
+}
+.container-contato hr{
+    width: 50%;
+}
+.card-contato{
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    margin: 24px;
+    padding: 16px;
+    background-color: gray;
+    border-radius: 5px;
+    box-shadow: 4px 4px 15px 5px black;
+}
+.card-contato input{
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+}
+.card-contato button{
+    padding: 16px;
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+}

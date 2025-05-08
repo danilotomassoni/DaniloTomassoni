@@ -1,0 +1,17 @@
+.container-portifolio{
+    display: block;
+    padding: 24px;
+    justify-items: center;
+    justify-content: center;
+}
+.container-portifolio hr{
+    width: 50%;
+}
+.card-contratos{
+    max-width: 400px;
+    background-color: gray;
+    padding: 16px;
+    margin: 16px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px black;
+}
